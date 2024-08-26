@@ -1,0 +1,26 @@
+body {
+    background-color: #ffb3c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("https://files.catbox.moe/wkjryy.jpg");
+    background-size: cover;
+}
+button {
+    background-color: #d5f3e9;
+    color: #1b9aaa;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1.5em;
+    border-radius: 20px;
+    font-family: Nerko One;
+    transition: all 0.5s;
+}
+button:hover {
+    border-color: #ef476f;
+    color: #ef476f;
+    box-shadow: 12px 5px 5px #ef476f;
+    transform: translateY(-0.5em);
+    background-color: #e8d0e2;
+}
